@@ -4,13 +4,22 @@
   background-color: hotpink;
   margin: 0;
   padding: 0;
+  position: absolute;
+  left: 0;
+  top: 0;
+  overflow: hidden;
 }
 
 .Chapter {
   display: flex;
   flex-direction: row;
   align-items: stretch;
-  width: calc(75vw + 25vw + 75vw)
+  width: calc(75vw + 25vw + 75vw);
+  transition: transform 0.2s ease-in-out;
+}
+
+.Chapter-depth1 {
+  transform: translateX(-75vw)
 }
 
 .Chapter-primary {

@@ -5,8 +5,11 @@
   "dependencies": {
     "@storybook/cli": "^3.2.9",
     "now": "^7.4.0",
+    "prop-types": "^15.5.10",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
+    "react-router-dom": "^4.2.2",
+    "react-router-transition": "^0.1.1",
     "react-scripts": "1.0.12"
   },
   "scripts": {

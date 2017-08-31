@@ -1,13 +1,19 @@
 .B {
-  padding: 8px 0;
+  padding: 8px;
 }
 
-.B-item:first-child {
-  margin-top: 0;
+.B:hover {
+  cursor: pointer;
+}
+
+.B-label {
+  text-align: center;
+  margin: 0 8px;
+  opacity: 0.8;
 }
 
 .B-item {
-  margin: 8px;
+  margin-top: 8px;
   height: 16px;
 }
 

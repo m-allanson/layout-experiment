@@ -1,13 +1,18 @@
 .C {
-  padding: 8px 0;
+  padding: 8px;
 }
 
-.C-item:first-child {
-  margin-top: 0;
+.C-label {
+  margin: 0 8px;
+  opacity: 0.8;
 }
 
 .C-item {
-  margin: 8px;
+  margin-top: 8px;
   height: 240px;
 }
 
+.C-nav {
+  display: block;
+  margin-top: 8px;
+}

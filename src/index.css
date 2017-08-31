@@ -33,8 +33,8 @@ body {
 }
 
 .fade-5 {
-  background: #30cfd0;
-  background: linear-gradient(to right, #330867, #30cfd0);
+  background: #330867;
+  background: linear-gradient(to right, #30cfd0, #330867);
 }
 
 .fade-6 {
