@@ -1,0 +1,26 @@
+.App {
+  width: 100vw;
+  height: 100vh;
+  background-color: hotpink;
+  margin: 0;
+  padding: 0;
+  /* overflow: scroll; */
+  display: flex;
+  flex-direction: row;
+  /* align-items: flex-start; */
+  align-items: stretch;
+}
+
+.App-primary {
+  flex: 1 100%;
+}
+
+.App-secondary {
+  max-height: 100vh;
+  overflow: scroll;
+  flex: 1 100%;
+}
+
+.App-tertiary {
+  flex: 1 100%;
+}

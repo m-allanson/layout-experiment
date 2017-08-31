@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import './A.css';
-console.log('sSDHFJSKDFHS KDJFHS KDJFH SKDJF SKJDF SKJDF SKD')
+import './index.css';
+
 class A extends Component {
   render() {
     return (
