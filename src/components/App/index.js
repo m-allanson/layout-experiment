@@ -1,29 +1,7 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-import A from '../A';
-import B from '../B';
-import C from '../C';
+import Chapter1 from '../Chapter1';
 
-import './index.css';
-
-class App extends Component {
-  render() {
-    return (
-      <div className="App-window">
-        <div className="App">
-          <div className="App-primary">
-            <A />
-          </div>
-          <div className="App-secondary">
-            <B />
-          </div>
-          <div className="App-tertiary">
-            <C />
-          </div>
-        </div>
-      </div>
-    );
-  }
-}
+const App = () => <Chapter1 />
 
 export default App;

@@ -1,4 +1,4 @@
-.App-window {
+.Chapter-viewport {
   width: 100vw;
   height: 100vh;
   background-color: hotpink;
@@ -6,26 +6,24 @@
   padding: 0;
 }
 
-.App {
-  /* overflow: hidden; */
+.Chapter {
   display: flex;
   flex-direction: row;
-  /* align-items: flex-start; */
   align-items: stretch;
   width: calc(75vw + 25vw + 75vw)
 }
 
-.App-primary {
+.Chapter-primary {
   flex: 1 1 75vw;
 }
 
-.App-secondary {
+.Chapter-secondary {
   max-height: 100vh;
   overflow: scroll;
   flex: 1 1 25vw;
 }
 
-.App-tertiary {
+.Chapter-tertiary {
   max-height: 100vh;
   overflow: scroll;
   flex: 1 1 75vw;

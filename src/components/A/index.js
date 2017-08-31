@@ -1,12 +1,6 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './index.css';
 
-class A extends Component {
-  render() {
-    return (
-      <div className="A"></div>
-    );
-  }
-}
+const A = ({fade}) => <div className={`A fade-${fade}`}></div>
 
 export default A;

@@ -11,3 +11,38 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+.fade-1 {
+  background: #ffd89b;
+  background: linear-gradient(to left, #19547b, #ffd89b);
+}
+
+.fade-2 {
+  background: #2C3E50;
+  background: linear-gradient(to right, #FD746C, #2C3E50);
+}
+
+.fade-3 {
+  background: #B3FFAB;
+  background: linear-gradient(to right, #12FFF7, #B3FFAB);
+}
+
+.fade-4 {
+  background: #ed6ea0;
+  background: linear-gradient(to right, #ec8c69, #ED6E9F);
+}
+
+.fade-5 {
+  background: #30cfd0;
+  background: linear-gradient(to right, #330867, #30cfd0);
+}
+
+.fade-6 {
+  background: #d299c2;
+  background: linear-gradient(to right, #fef9d7, #d299c2);
+}
+
+.fade-7 {
+  background: #d558c8;
+  background: linear-gradient(to right, #24d292, #d558c8);
+}
