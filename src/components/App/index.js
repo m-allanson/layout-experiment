@@ -9,15 +9,17 @@ import './index.css';
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <div className="App-primary">
-          <A />
-        </div>
-        <div className="App-secondary">
-          <B />
-        </div>
-        <div className="App-tertiary">
-          <C />
+      <div className="App-window">
+        <div className="App">
+          <div className="App-primary">
+            <A />
+          </div>
+          <div className="App-secondary">
+            <B />
+          </div>
+          <div className="App-tertiary">
+            <C />
+          </div>
         </div>
       </div>
     );

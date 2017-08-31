@@ -1,26 +1,32 @@
-.App {
+.App-window {
   width: 100vw;
   height: 100vh;
   background-color: hotpink;
   margin: 0;
   padding: 0;
-  /* overflow: scroll; */
+}
+
+.App {
+  /* overflow: hidden; */
   display: flex;
   flex-direction: row;
   /* align-items: flex-start; */
   align-items: stretch;
+  width: calc(75vw + 25vw + 75vw)
 }
 
 .App-primary {
-  flex: 1 100%;
+  flex: 1 1 75vw;
 }
 
 .App-secondary {
   max-height: 100vh;
   overflow: scroll;
-  flex: 1 100%;
+  flex: 1 1 25vw;
 }
 
 .App-tertiary {
-  flex: 1 100%;
+  max-height: 100vh;
+  overflow: scroll;
+  flex: 1 1 75vw;
 }
