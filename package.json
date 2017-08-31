@@ -2,17 +2,16 @@
   "name": "layout-experiment",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://m-allanson.github.io/layout-experiment",
   "dependencies": {
     "@storybook/cli": "^3.2.9",
-    "gh-pages": "^1.0.0",
+    "now": "^7.4.0",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
     "react-scripts": "1.0.12"
   },
   "scripts": {
-   "predeploy": "npm run build",
-   "deploy": "gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
@@ -21,9 +20,9 @@
     "build-storybook": "build-storybook -s public"
   },
   "devDependencies": {
-    "@storybook/react": "^3.2.8",
-    "@storybook/addon-options": "^3.2.6",
     "@storybook/addon-actions": "^3.2.6",
-    "@storybook/addon-links": "^3.2.6"
+    "@storybook/addon-links": "^3.2.6",
+    "@storybook/addon-options": "^3.2.6",
+    "@storybook/react": "^3.2.8"
   }
 }
