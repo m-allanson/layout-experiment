@@ -15,11 +15,6 @@
   flex-direction: row;
   align-items: stretch;
   width: calc(75vw + 25vw + 75vw);
-  transition: transform 0.2s ease-in-out;
-}
-
-.Chapter-depth1 {
-  transform: translateX(-75vw)
 }
 
 .Chapter-primary {

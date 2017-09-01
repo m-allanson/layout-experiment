@@ -18,7 +18,11 @@ const App = () =>
           >
             <ScrollToTop>
               <Switch key={location.key} location={location}>
-                {/* <Route exact path="/" component={Chapter1} /> */}
+                <Route
+                  exact
+                  path="/"
+                  render={() => <Chapter nextChapter={2} title="Chapter 1" fades={[1, 2, 3]} />}
+                />
                 <Route
                   path="/1"
                   render={() => <Chapter nextChapter={2} title="Chapter 1" fades={[1, 2, 3]} />}
