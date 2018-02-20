@@ -20,6 +20,7 @@ Zeit's [now](https://zeit.co/now) is used for deployment.
 
 - `npm run deploy`
 
+https://layout-experiment-zaxnfzmipx.now.sh/1
 
 # Further Info
 
